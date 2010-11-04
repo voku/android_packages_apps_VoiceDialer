@@ -344,7 +344,7 @@ public class VoiceDialerActivity extends Activity {
          */
         public void onMicrophoneStart(InputStream mic) {
             if (Config.LOGD) Log.d(TAG, "onMicrophoneStart");
-            playSound(ToneGenerator.TONE_PROP_BEEP);
+            //playSound(ToneGenerator.TONE_PROP_BEEP);
 
             int ringVolume = mAudioManager.getStreamVolume(
                     AudioManager.STREAM_RING);
